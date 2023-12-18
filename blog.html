@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>It's your Blog</title>
+    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico&display=swap">
+
+</head>
+<body>
+    <header>
+        <h1>JUSTT BLOGG ITT!!!!!</h1>
+        <!-- Add navigation links as needed -->
+    </header>
+    <img align="right" src="c:\Users\RAMESH\Downloads\blog.png" >
+    <div class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/view blog.html">view blogs</a></li>
+                <li><a href="/add.html">Add blog</a></li>
+                <li><a href="/list.html">Blogs</a></li>
+            </ul>
+        </nav> 
+    </div>   
+
+    <section>
+        <h2>View Blogs</h2>
+        <ul>
+            <!-- List recent blogs with links to their content pages -->
+            <li><a href="blog1.html">Daily life</a></li>
+            <li><a href="blog2.html">Healthy diets</a></li>
+            <li><a href="blog3.html">TRIPS with friends are awesome</a></li>
+            <li><a href="blog4.html">Meditate</a></li>
+            <!-- Add more blog entries as needed -->
+        </ul>
+
+    </section>
+    
+</body>
+</html>
+
+<!-- blogs.html (Listing of Blogs) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Blogs</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <header>
+        <h1>All Blogs</h1>
+        <!-- Add navigation links as needed -->
+    </header>
+
+    <section>
+        <h2>Blog List</h2>
+        <ul>
+            <!-- List all blogs with links to their content pages -->
+            <li><a href="blog1.html">Blog Title 1</a></li>
+            <li><a href="blog2.html">Blog Title 2</a></li>
+            <!-- Add more blog entries as needed -->
+        </ul>
+    </section>
+
+    
+</body>
+</html>
+
+<!-- blog1.html (Viewing a Blog Content Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Title 1</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <header>
+        <h1>blogs</h1>
+        <!-- Add navigation links as needed -->
+    </header>
+
+    <section>
+        <article>
+            <!-- Display the blog content -->
+            <p>Content</p>
+        </article>
+    </section>
+
+    
+</body>
+</html>
+
+<!-- add-blog.html (Adding a New Blog Content Page) -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add a New Blog</title>
+    <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+    <header>
+        <h1>Add a New Blog</h1>
+        <li><a href="/add.html">Add blog</a></li>
+    </header>
+
+    <section>
+        <form action="process-blog.php" method="post">
+            <label for="blogTitle">Title:</label>
+            <input type="text" id="blogTitle" name="blogTitle" required>
+
+            <label for="blogContent">Content:</label>
+            <textarea id="blogContent" name="blogContent" rows="8" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+
+</body>
+</html>
+
+
